@@ -1,7 +1,7 @@
 import './App.css'
 
 import Navbar from './components/NavBar'
-import MainRoute from './components/MainRoute'
+import MainRoute from './components/MainRout'
 import NewPlayerForm from './components/NewPlayerForm'
 
 function App() {
