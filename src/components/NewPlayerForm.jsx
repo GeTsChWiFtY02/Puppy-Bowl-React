@@ -89,7 +89,7 @@ const NewPlayerForm = () => {
                 </label>
 
                 <button type="reset" onClick={resetForm}>Reset</button>
-                <button onClick={error} type="submit" onsubmit="() => location.reload(/)">Submit</button>
+                <button onClick={error} type="submit" >Submit</button>
             </form>
         </div>
         )
