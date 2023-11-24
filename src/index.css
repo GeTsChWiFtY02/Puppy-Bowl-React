@@ -1,8 +1,8 @@
 .navbar{
   align-items: center;
-  background-color: #fff0f5;
+  background-color: #ffd207;
   border-radius: .8em;
-  color: #008000;
+  color: #7e8000;
   display: flex;
   font-size: 20px;
   justify-content: space-evenly;
@@ -10,14 +10,14 @@
 }
 
 .home{
-  color:blueviolet;
+  background-color:#ffd207;
   padding: 10px;
 }
 
 .formContainer{
-  background-color: aliceblue;
+ background-color: #5500ff;
   border-radius: 2em;
-  color: #008000;
+  color: #ffd207;
   width: 100%;
 }
 
@@ -41,9 +41,9 @@
 }
 
 .searchTop{
-  background-color: aliceblue;
+  background-color: #ffd207;
   border-radius: 1em;
-  color: #008000;
+  color: #807e00;
   display: flex;
   justify-content: space-evenly;
   margin: 10px;
@@ -62,8 +62,8 @@
 }
 
 .playerCard{
-  background-color: #e0ffff;
-  border: blue 2px solid;
+  background-color: #5500ff;
+  border: rgb(200, 245, 0) 2px solid;
   height: 550px;
   margin: 10px; 
   width: 350px;
@@ -73,8 +73,8 @@
   justify-content: center;
 }
 .singlePlayerCard{
-  background-color: #e0ffff;
-  border: blue 2px solid;
+  background-color: #5500ff;
+  border: rgb(174, 0, 255) 2px solid;
   height: 550px;
   margin: 10px; 
   width: 400px;
@@ -105,7 +105,7 @@
 .playerDetails button{
   background-color: #e6e6fa;
   border-radius: 1em;
-  color: #4b0082;
+  color: #000000;
   font-size: 16px;
   margin: 10px;
   padding: 10px;
