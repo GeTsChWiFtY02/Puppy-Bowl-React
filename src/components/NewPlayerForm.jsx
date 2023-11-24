@@ -33,6 +33,8 @@ const NewPlayerForm = () => {
 
         if(!error){
             const postPlayer= await postNewPlayer({id,name :playerName,breed,imageUrl,status})
+            
+            console.log(postPlayer);
         }
     }
 
@@ -87,7 +89,7 @@ const NewPlayerForm = () => {
                 </label>
 
                 <button type="reset" onClick={resetForm}>Reset</button>
-                <button disabled={error} type="submit">Submit</button>
+                <button onClick={error} type="submit">Submit</button>
             </form>
         </div>
         )
